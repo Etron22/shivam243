@@ -1,0 +1,54 @@
+<!--Intoduction to ineractive web page using forms-->
+<html>
+    <head>
+        <title>
+            HTML  FORMS
+        </title>
+    </head>
+    <body>
+        <form oninput="c.value=parseInt(a.value)+parseInt(b.value)">
+            <fieldset>
+                <legend>
+                    Form     
+                </legend>
+                a=
+                <input type="number" name="a" id="a" step="0.5">
+                +b=
+                <input type="number" name="b" id="b">
+                <output name="x" for="a b"></output>
+                <br><label for="text1">
+                        First Name
+                </label>
+                <input type="text" value="default" name="text1" id="text1">
+                <br>
+                <label for="Pizza"> Pizza </label>
+                <input type="radio" name="Radio1"  id="Pizza"><br>
+                <label for="Burger"> Burger </label>
+                <input type="radio" name="Radio1" id="Burger"><br>
+                <label for="delhi"> Delhi</label>
+                <input type="checkbox" name="delhi" id="delhi">
+                <label for="delhi">Goa</label>
+                <input type="checkbox" name="delhi" id="delh"><br>
+                <select name="places" id="places">
+
+                    <option value="goa">
+                        Goa
+                    </option>
+                    <option value="delhi">Delhi</option>
+                </select>
+                <br>
+                <textarea name="textarea" id="textarea" rows="20" columns=""10>Text Area</textarea>
+                <br>
+                <button type="button" onclick="">Button</button>
+                <br><input type="button" value="submit">
+        </fieldset>
+        </form>
+        <input list="country" name="xyz" id="xyz">
+        <datalist name="country" id="country">
+            <option value="India">India</option>
+            <option value="America">America</option>
+            <option value="England">England</option>
+            <option valuw="Indonasia">Indo</option>
+        </datalist>
+        </body>
+</html>
