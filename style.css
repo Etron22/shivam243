@@ -1,0 +1,26 @@
+a{
+    background-color: lightblue;
+    color:darkgreen;
+}
+p{
+    background-color: lightblue;
+    color:darkgreen;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px ;
+    border-color: green ;
+    border-style:groove;
+    box-shadow: 10px 5px black;
+}
+button{
+    background-color: aqua;
+    color:black;
+}
+#p2:after{
+    background-color: red;
+
+}
