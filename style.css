@@ -1,12 +1,11 @@
 body{
-    height: 200vh;  
+    height: 300vh;
+    accent-color: auto;  
+    background-image: linear-gradient(rgb(7, 122, 253),white,rgb(78, 0, 234));
 }
-a{
-    background-color: lightblue;
-    color:darkgreen;
-}
+
 p{
-    background-color: lightblue;
+    background-color: rgb(31, 141, 238);
     color:darkgreen;
     margin-left: 100px;
     margin-right: 100px;
@@ -14,17 +13,47 @@ p{
     padding-bottom: 5px;
     text-align: center;
     border-radius: 5px;
-    border: 2px ;
-    border-color: green ;
+    border: 2px ; ;
     border-style:groove;
-    box-shadow: 10px 5px black;
 }
 button{
-    background-color: aqua;
+    background-color: rgb(0, 194, 81);
     color:black;
-    position: fixed;
 }
 p:active {
-    background-color: red;
+    background-color: rgb(203, 203, 44);
 
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    border: 1px solid rgb(66,66,66);
+}
+
+li{
+    float:left;
+    font-size: 2em;
+    border-right: 1px solid rgb(66, 66,66);
+    border-left: 1px solid rgb(66, 66, 66);
+}
+
+li a{
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(66, 66, 66);
+    
+
+}
+li a:hover {
+    color:white;
+    
 }
